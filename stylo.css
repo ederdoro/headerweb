@@ -1,0 +1,132 @@
+body {
+      background: #ffffff;
+      font-family: sans-serif, monospace, inherit;
+      font-size: 16px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+
+#navbarSite { 
+    background: #f8f8f8;
+    z-index: 10;
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+#gotop {
+    position: fixed;
+	right: 0;
+	top: 95%;
+	transform: translateY(-50%);
+	margin: 3;
+	padding: 3;
+	z-index: 10;
+    font-size: 32px;
+    color: #ff0000;
+      }
+
+
+footer {
+    display: block;
+    background-color: #e6e6e6;
+}
+
+#site1{
+    background-image: url(fotos/site1.jpg);
+    }
+
+.sci {
+	position: fixed;
+	right: 0;
+	top: 4%;
+	transform: translateY(-50%);
+	margin: 0;
+	padding: 0;
+	z-index: 10;
+    
+}
+.sci li {
+	background: none;
+	padding: 3px;
+	list-style: none;
+	
+}
+.sci li:last-child {
+	border-bottom: none;
+}
+.sci li:hover {
+	filter: drop-shadow();
+}
+.sci li:hover img {
+	filter: contrastsepia();
+}
+
+.swiper-container {
+      width: 100%;
+      height: auto;
+      padding-top: 5px;    
+      
+    }
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: none;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+a{
+    color:#1a1a1a;        
+}
+
+a:hover{
+    color:#0067b8;
+    text-decoration: underline;    
+    
+}
+.container {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    height: 40px;
+    
+    
+}
+
+p {
+    padding-bottom: 15px;
+    padding-top: 15px;    
+  {
+
+      
